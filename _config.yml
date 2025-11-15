@@ -20,7 +20,12 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+# 网站根路径
+root: /
+
+# 网站的完整 URL
+url: https://yuej.vercel.app
+# url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,6 +110,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: free2mind
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
