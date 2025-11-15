@@ -3,13 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+# 网站标题
+title: 阅界
+# 网站副标题
+subtitle: 文字雕刻时光，阅读无界想象
+# 网站描述
+description: 阅界 - 一个自由创作的文学世界。每日更新精彩小说，涵盖玄幻、科幻、言情、悬疑、都市、历史等多种题材，海量作品等你探索。在这里，发现好故事，邂逅好文字。
+# 网站关键词
+keywords: 小说阅读,玄幻小说,科幻小说,言情小说,悬疑小说,都市小说,免费小说,在线阅读,文学创作,阅界
+# 网站作者
+author: 阅界文学
+# 网站语言
+language: zh-CN
+# 时区
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -101,4 +108,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/zhancat200801/zhancat200801.github.io.git
+  branch: main
