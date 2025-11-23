@@ -6,13 +6,13 @@
 # 网站标题
 title: 阅界
 # 网站副标题
-subtitle: 文字雕刻时光，阅读无界想象
+subtitle: 观万象，察新知
 # 网站描述
-description: 阅界 - 一个自由创作的文学世界。每日更新精彩小说，涵盖玄幻、科幻、言情、悬疑、都市、历史等多种题材，海量作品等你探索。在这里，发现好故事，邂逅好文字。
+description: 阅无界，知天下。这里聚焦科技数码前沿，漫谈历史风云，记录旅行时光，品味小说人生，共话民生热点。
 # 网站关键词
-keywords: 小说阅读,玄幻小说,科幻小说,言情小说,悬疑小说,都市小说,免费小说,在线阅读,文学创作,阅界
+keywords: 科技, 数码, 历史, 旅游, 小说, 民生, 热点
 # 网站作者
-author: 阅界文学
+author: 阅界
 # 网站语言
 language: zh-CN
 # 时区
@@ -21,10 +21,11 @@ timezone: Asia/Shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 # 网站根路径
-root: /
+
 
 # 网站的完整 URL
-url: https://yuej.vercel.app
+url: https://yuejie.site
+root: /
 # url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -76,10 +77,34 @@ index_generator:
   per_page: 10
   order_by: -date
 
+# 归档页面每页显示的文章数量
+archive_generator:
+  per_page: 20 # 将数字改为你希望的数量
+  yearly: true
+  monthly: true
+
+# 标签页面每页显示的文章数量
+tag_generator:
+  per_page: 10 # 将数字改为你希望的数量
+
+# 分类页面每页显示的文章数量
+category_generator:
+  per_page: 10 # 将数字改为你希望的数量
+
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+auto_excerpt:
+  enable: true
+  length: 150
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -109,12 +134,15 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: hexo-theme-artemisX
+# theme: hexo-theme-artemisX
+# theme: hexo-theme-next
+theme: hexo-theme-hipaper
 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:zhancat200801/zhancat200801.github.io.git
-  branch: main
+  repo: git@github.com:zhancat200801/yuej.git
+  branch: gh-pages
+
