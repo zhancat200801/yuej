@@ -36,7 +36,7 @@ if (workbox) {
     new workbox.strategies.StaleWhileRevalidate({
       cacheName: 'images',
       plugins: [
-        new workbox.expiration.Plugin({
+        new workbox.expiration.ExpirationPlugin({
           maxEntries: 20,
           maxAgeSeconds: 7 * 24 * 60 * 60
         })
