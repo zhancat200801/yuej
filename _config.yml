@@ -17,6 +17,24 @@ author: 阅界
 language: zh-CN
 # 时区
 timezone: Asia/Shanghai
+seo_title: 阅界
+project_dir: projects
+
+# 用户设置
+avatar: avatar.png
+
+# Utteranc 评论系统
+comment:
+  repo: xrr2016/blog
+
+# 社交平台链接：
+sns:
+  github: zhancat200801
+  # juejin: 576666b7207703006b1e0f09
+
+# # 博客访问数据
+# track:
+#   gaid: xxxxxxxxxxxxxx
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -136,7 +154,7 @@ ignore:
 # theme: landscape
 # theme: hexo-theme-artemisX
 # theme: hexo-theme-next
-theme: hexo-theme-hipaper
+theme: hexo-theme-cold-stone
 
 
 # Deployment
@@ -145,4 +163,27 @@ deploy:
   type: 'git'
   repo: git@github.com:zhancat200801/yuej.git
   branch: gh-pages
+
+# 在 _config.yml 中
+force_https: true
+
+# Google Analytics Tracking (如果使用)
+track:
+  google_analytics:
+    enable: false  # 如果您不使用Google分析，设为false
+    gaid: ''       # 如果您使用，在此填入您的GA跟踪ID
+
+# RSS
+rss: true
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: avatar.png
+  autodiscovery: true
 
