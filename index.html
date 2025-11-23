@@ -57,10 +57,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,css/images/pose01.jpg,css/images/pose01.jpg".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -140,7 +162,6 @@
 </blockquote>
 <p>最近不少人的朋友圈被流感刷屏了。北京的王女士一家四口先后中招，她无奈地告诉我：“孩子学校一半同学请假，公司里咳嗽声此起彼伏，医院发热门诊排长队。”</p>
 <p>这种困扰并非个例。来自央视财经的数据显示，近一周抗流感药物奥司他韦销量暴涨<strong>237%</strong>，另一款药物玛巴洛沙韦也增长了<strong>180%</strong>。与此同时，流感检测试剂在部分城市甚至出现了<strong>增长10倍以上</strong>的情况。</p>
-<hr>
 <h2 id="01-流感来袭"><a href="#01-流感来袭" class="headerlink" title="01 流感来袭"></a>01 流感来袭</h2><p>今年流感季来得又早又猛。国家疾病预防控制局不久前发出预警，全国已全面进入流感流行季，活动水平快速上升。</p>
 <p>监测数据显示，当前南北方省份流感病毒阳性标本中<strong>甲型H3N2毒株占比均超95%</strong>，成为本季主导毒株。</p>
 <p>官方预计，今年秋冬季流感高峰可能出现在<strong>12月中下旬至1月初</strong>。也就是说，真正的疫情高峰还未到来，我们现在仅仅处于上升通道中。</p>
@@ -195,7 +216,6 @@
 <p><strong>接种流感疫苗是最有效的预防方式</strong>，建议老年人、儿童、慢性病患者等重点人群尽早完成接种，形成免疫屏障。</p>
 <p>此外，保持良好卫生习惯，勤洗手、常通风，避免用手触摸口鼻眼，咳嗽或打喷嚏时用纸巾、肘部遮挡。</p>
 <p>在流感高发期减少前往人群密集、通风不良的公共场所，必要时佩戴口罩，降低交叉感染风险。</p>
-<hr>
 <p>流感季节尚未到达高峰，药品市场的竞争却已白热化。一位业内人士点出了背后的商战逻辑：“以往‘流感神药’短缺几乎成为惯例，2024年，速福达甚至被炒至近千元。而今年，随着多款国产创新药密集上市，曾经一盒难求的‘流感神药’供应充足，部分药降价明显。”</p>
 <p>未来的流感药物市场，必将迎来更加激烈的竞争。但无论如何，<strong>竞争的最终受益者永远是普通消费者</strong>。</p>
 <p>不用错过重要动态，点击关注我们，第一时间获取最新健康资讯与市场变化分析。</p>
@@ -604,6 +624,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
