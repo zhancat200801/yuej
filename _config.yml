@@ -45,8 +45,12 @@ sns:
 url: https://yuejie.site
 root: /
 # url: http://example.com
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
+permalink_pinyin:
+  enable: true
+  separator: '-'
+
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -179,6 +183,8 @@ track:
 
 # RSS
 rss: true
+sitemap:
+  path: sitemap.xml
 feed:
   type: atom
   path: atom.xml
@@ -190,4 +196,29 @@ feed:
   order_by: -date
   icon: avatar.png
   autodiscovery: true
+
+# 配置主动推送插件
+baidu_url_submit:
+  count: 10 # 提交最新的5个链接
+  host: www.yuejie.site # 你注册的域名（替换为你自己的）
+  token: 'PWeGYkqMkzTKspsR' # 在百度站长平台的"主动推送"功能中获取
+  path: baidu_urls.txt # 生成的链接文件路径
+
+# 注意：实际配置项名称和可用参数可能因插件版本而异，请查阅插件文档
+robotstxt:
+  useragent: "*"  # 针对所有搜索引擎爬虫
+  allow:          # 允许爬取的路径
+    - "/"
+    - "/archives/"
+    - "/categories/"
+    - "/tags/"
+  disallow:       # 禁止爬取的路径，通常是静态资源目录
+    - "/vendors/"
+    - "/js/"
+    - "/css/"
+    - "/fonts/"
+    - "/fancybox/"
+  sitemap:        # 您的网站地图地址，确保此处填写正确
+    - "https://yuejie.site/sitemap.xml"
+    - "https://yuejie.site/baidusitemap.xml"
 
