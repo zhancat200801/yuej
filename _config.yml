@@ -127,6 +127,12 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+excerpt:
+  depth: 3
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: false
+
 auto_excerpt:
   enable: true
   length: 150
