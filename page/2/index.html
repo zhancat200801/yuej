@@ -61,38 +61,16 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
 
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
-
-
-<header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+<header id="allheader" class="site-header" role="banner">
   <div class="clearfix container">
       <div class="site-branding">
 
           <h1 class="site-title">
             
-              <a href="/" title="阅界" rel="home"> 阅界 </a>
+              <a href="/" title="阅界" rel="home">
+                阅界
+              </a>
             
           </h1>
           
@@ -105,18 +83,43 @@
             <a class="nav-close">Close</a>
 
             <div class="clearfix sf-menu">
-              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分类</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">标签</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
-                    
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+                
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"
+                      linktext="/">
+                    <a class="" href="/">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"
+                      linktext="archives">
+                    <a class="" href="/archives">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"
+                      linktext="categories">
+                    <a class="" href="/categories">
+                      分类
+                    </a>
+                  </li>
+                
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"
+                      linktext="tags">
+                    <a class="" href="/tags">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"
+                      linktext="about">
+                    <a class="" href="/about">
+                      关于
+                    </a>
+                  </li>
+                
               </ul>
             </div>
           </nav>
@@ -446,7 +449,7 @@
         
           <div class="entry-thumbnail">
             <a href="/2025/202511/20251122/sha-men-zhong-xue-nan-sheng-chuan-qun-zi-pao-bu-duo-guan-xue-xiao-sui-hou-ju-dong-yin-quan-wang-re-yi/">
-              <img src="https://picsum.photos/750/450?random=4" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt="厦门中学男生穿裙子跑步夺冠！学校随后举动引全网热议" style="width:100%;height:auto;">
+              <img src="https://picsum.photos/750/450?random=3" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt="厦门中学男生穿裙子跑步夺冠！学校随后举动引全网热议" style="width:100%;height:auto;">
             </a>
           </div>
         
@@ -814,9 +817,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
