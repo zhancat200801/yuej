@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yuejie.site/2025/202511/20251130/xiang-gang-da-bu-huo-zai-qi-ri-ji-146-ge-sheng-ming-yu-100-ge-wei-jie-de-qian-gua/</loc>
+    
+    <lastmod>2025-11-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yuejie.site/2025/202511/20251126/jie-ge-bao-jiang-hua-wei-mate80-tu-ran-xuan-bu-ping-guo-xiao-mi-cuo-shou-bu-ji/</loc>
     
     <lastmod>2025-11-26</lastmod>
@@ -193,7 +202,7 @@
 
   <url>
     <loc>https://yuejie.site/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -201,35 +210,35 @@
   
   <url>
     <loc>https://yuejie.site/tags/%E6%B0%91%E7%94%9F%E7%83%AD%E7%82%B9/</loc>
-    <lastmod>2025-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuejie.site/tags/%E6%B1%BD%E8%BD%A6/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yuejie.site/tags/%E7%A7%91%E6%8A%80%E6%95%B0%E7%A0%81/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yuejie.site/tags/%E6%97%85%E6%B8%B8/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yuejie.site/tags/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuejie.site/tags/%E6%B1%BD%E8%BD%A6/</loc>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -238,35 +247,35 @@
   
   <url>
     <loc>https://yuejie.site/categories/%E6%B0%91%E7%94%9F%E7%83%AD%E7%82%B9/</loc>
-    <lastmod>2025-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuejie.site/categories/%E6%B1%BD%E8%BD%A6/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yuejie.site/categories/%E7%A7%91%E6%8A%80%E6%95%B0%E7%A0%81/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yuejie.site/categories/%E6%97%85%E6%B8%B8/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yuejie.site/categories/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2025-11-29</lastmod>
+    <lastmod>2025-11-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuejie.site/categories/%E6%B1%BD%E8%BD%A6/</loc>
+    <lastmod>2025-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
